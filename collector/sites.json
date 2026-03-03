@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ponpon",
+    "name": "ポンポンキャンペーン",
+    "url": "https://www.ponpon.jp/",
+    "description": "コンビニ無料クーポン・全プレ情報を毎日更新",
+    "category": "まとめ",
+    "icon": "🎯"
+  },
+  {
+    "id": "freebie_matome",
+    "name": "無料・タダ活まとめ",
+    "url": "https://tadakatsu.com/",
+    "description": "全員もらえる系キャンペーン専門メディア",
+    "category": "まとめ",
+    "icon": "🆓"
+  },
+  {
+    "id": "seven_eleven",
+    "name": "セブンイレブン公式",
+    "url": "https://www.sej.co.jp/campaign/",
+    "description": "セブンイレブンの公式キャンペーン情報",
+    "category": "コンビニ",
+    "icon": "🏪"
+  },
+  {
+    "id": "lawson",
+    "name": "ローソン公式",
+    "url": "https://www.lawson.co.jp/campaign/",
+    "description": "ローソンの公式キャンペーン情報",
+    "category": "コンビニ",
+    "icon": "🏪"
+  },
+  {
+    "id": "familymart",
+    "name": "ファミリーマート公式",
+    "url": "https://www.family.co.jp/campaign/",
+    "description": "ファミマの公式キャンペーンページ",
+    "category": "コンビニ",
+    "icon": "🏪"
+  },
+  {
+    "id": "line_campaign",
+    "name": "LINEキャンペーン",
+    "url": "https://campaign.line.me/",
+    "description": "LINE公式のポイントプレゼント・無料スタンプ情報",
+    "category": "ポイント",
+    "icon": "💚"
+  },
+  {
+    "id": "paypay",
+    "name": "PayPayキャンペーン",
+    "url": "https://paypay.ne.jp/event/",
+    "description": "PayPay公式のキャッシュバック・還元キャンペーン",
+    "category": "ポイント",
+    "icon": "💰"
+  },
+  {
+    "id": "rakuten_campaign",
+    "name": "楽天キャンペーン一覧",
+    "url": "https://event.rakuten.co.jp/campaign/",
+    "description": "楽天ポイント倍増・無料お試し情報",
+    "category": "ポイント",
+    "icon": "🐼"
+  }
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroGet | 対象サイト一覧</title>
+    <meta name="description" content="ZeroGetが自動で情報を収集している対象サイト一覧。コンビニ公式、ポイントサイト、キャンペーンまとめサイトなどを監視中。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">ZeroGet</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">🎁 キャンペーン</a>
+                <a href="sites.html" class="nav-link active">📡 対象サイト</a>
+            </div>
+        </nav>
+        <p class="subtitle">情報を収集している対象サイト一覧 📡</p>
+    </header>
+
+    <main>
+        <div class="page-intro">
+            <h1 class="section-title">監視対象サイト</h1>
+            <p class="section-desc">ZeroGetが自動で巡回し、「全員もらえる」情報だけを抽出しているサイトの一覧です。<br>※抽選系のキャンペーンは自動で除外されます。</p>
+        </div>
+
+        <!-- カテゴリフィルタ -->
+        <div class="filters" id="site-filter-bar">
+            <button class="filter-btn active" data-filter="all">すべて</button>
+            <button class="filter-btn" data-filter="まとめ">🎯 まとめ</button>
+            <button class="filter-btn" data-filter="コンビニ">🏪 コンビニ</button>
+            <button class="filter-btn" data-filter="ポイント">💰 ポイント</button>
+        </div>
+
+        <div class="sites-grid" id="sites-grid">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>サイト情報を読み込み中...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>ZeroGet — 全員もらえるキャンペーン情報を自動収集 🚀</p>
+        <p class="footer-sub">※掲載情報は各公式サイトをご確認ください</p>
+    </footer>
+
+    <script src="sites.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroGet | 無料でもらえる＆0円クーポンまとめ</title>
+    <meta name="description" content="全員もらえる無料キャンペーン・実質0円クーポンを自動で収集。コンビニ無料クーポン、ポイント還元、全プレ情報を毎日更新中！">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">ZeroGet</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">🎁 キャンペーン</a>
+                <a href="sites.html" class="nav-link">📡 対象サイト</a>
+            </div>
+        </nav>
+        <p class="subtitle">全員もらえる！公式キャンペーン＆0円クーポンを自動で収集 ✨</p>
+    </header>
+
+    <main>
+        <!-- 統計バー -->
+        <div class="stats-bar" id="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number" id="stat-total">-</span>
+                <span class="stat-label">件のお得情報</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="stat-ending">-</span>
+                <span class="stat-label">件が間もなく終了</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="stat-updated">-</span>
+                <span class="stat-label">最終更新</span>
+            </div>
+        </div>
+
+        <!-- フィルター -->
+        <div class="filters" id="filter-bar">
+            <button class="filter-btn active" data-filter="all">すべて</button>
+            <button class="filter-btn" data-filter="コンビニ">🏪 コンビニ</button>
+            <button class="filter-btn" data-filter="ポイント">💰 ポイント</button>
+            <button class="filter-btn" data-filter="飲料">🥤 飲料</button>
+            <button class="filter-btn" data-filter="その他">📦 その他</button>
+        </div>
+
+        <!-- カードグリッド -->
+        <div class="grid" id="campaign-grid">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>情報を読み込み中...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>ZeroGet — 全員もらえるキャンペーン情報を自動収集 🚀</p>
+        <p class="footer-sub">※掲載情報は各公式サイトをご確認ください</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
