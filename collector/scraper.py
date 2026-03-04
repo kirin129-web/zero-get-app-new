@@ -283,11 +283,11 @@ if __name__ == "__main__":
     scraper.save_results_js("data.js")
     scraper.save_sites("sites.json")
     
-    # web/rootフォルダにも自動コピー（サイト用）
+    # ルートフォルダ（サイト用）に自動保存
     try:
-        scraper.save_results("./data.json")
-        scraper.save_results_js("./data.js")
-        scraper.save_sites("./sites.json")
+        scraper.save_results("../data.json")
+        scraper.save_results_js("../data.js")
+        scraper.save_sites("../sites.json")
         logging.info("Root directory data updated successfully.")
     except Exception as e:
         logging.warning(f"Could not save to root directory: {e}")
