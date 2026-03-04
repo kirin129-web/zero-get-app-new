@@ -1,28 +1,10 @@
 // ========== 対象サイト一覧データ ==========
 const sitesData = [
     {
-        id: "ponpon",
-        name: "ポンポンキャンペーン",
-        url: "https://www.ponpon.jp/",
-        description: "コンビニ無料クーポン・全プレ情報を毎日更新",
-        category: "まとめ",
-        icon: "🎯",
-        status: "active"
-    },
-    {
-        id: "freebie_matome",
-        name: "無料・タダ活まとめ",
-        url: "https://tadakatsu.com/",
-        description: "全員もらえる系キャンペーン専門メディア",
-        category: "まとめ",
-        icon: "🆓",
-        status: "active"
-    },
-    {
         id: "seven_eleven",
         name: "セブンイレブン公式",
-        url: "https://www.sej.co.jp/campaign/",
-        description: "セブンイレブンの公式キャンペーン情報",
+        url: "https://www.sej.co.jp/cmp/",
+        description: "セブンイレブンのセール・キャンペーン情報",
         category: "コンビニ",
         icon: "🏪",
         status: "active"
@@ -47,9 +29,9 @@ const sitesData = [
     },
     {
         id: "line_campaign",
-        name: "LINEキャンペーン",
-        url: "https://campaign.line.me/",
-        description: "LINE公式のポイントプレゼント・無料スタンプ情報",
+        name: "LINEポイントクラブ",
+        url: "https://member.line.me/pointclub/",
+        description: "LINEポイントが貯まるキャンペーン・ミッション情報",
         category: "ポイント",
         icon: "💚",
         status: "active"
@@ -65,9 +47,9 @@ const sitesData = [
     },
     {
         id: "rakuten_campaign",
-        name: "楽天キャンペーン一覧",
-        url: "https://event.rakuten.co.jp/campaign/",
-        description: "楽天ポイント倍増・無料お試し情報",
+        name: "楽天ポイントカード キャンペーン",
+        url: "https://pointcard.rakuten.co.jp/campaign/",
+        description: "楽天ポイントカードのお得なキャンペーン一覧",
         category: "ポイント",
         icon: "🐼",
         status: "active"
