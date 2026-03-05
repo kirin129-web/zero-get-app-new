@@ -53,6 +53,51 @@ const sitesData = [
         category: "ポイント",
         icon: "🐼",
         status: "active"
+    },
+    {
+        id: "uber_eats",
+        name: "Uber Eats",
+        url: "https://www.ubereats.com/jp",
+        description: "Uber Eats公式のクーポン・お得メニュー情報",
+        category: "デリバリー",
+        icon: "🥡",
+        status: "active"
+    },
+    {
+        id: "demaecan",
+        name: "出前館",
+        url: "https://demae-can.com/campaign/",
+        description: "出前館公式のクーポン・キャンペーン一覧",
+        category: "デリバリー",
+        icon: "🏠",
+        status: "active"
+    },
+    {
+        id: "menu_app",
+        name: "menu（メニュー）",
+        url: "https://menu.jp/",
+        description: "menuの初回クーポン・キャンペーン情報",
+        category: "デリバリー",
+        icon: "📱",
+        status: "active"
+    },
+    {
+        id: "rocketnow",
+        name: "ロケットナウ",
+        url: "https://www.rocketnow.co.jp/",
+        description: "配送料・サービス料無料のデリバリーアプリ",
+        category: "デリバリー",
+        icon: "🚀",
+        status: "active"
+    },
+    {
+        id: "delis",
+        name: "DELIS（デリズ）",
+        url: "https://delis.tokyo/",
+        description: "自社ブランド中心のフードデリバリー",
+        category: "デリバリー",
+        icon: "🍱",
+        status: "active"
     }
 ];
 

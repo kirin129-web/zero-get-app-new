@@ -59,6 +59,46 @@ TARGET_SITES = [
         "description": "楽天ポイントカードのお得なキャンペーン一覧",
         "category": "ポイント",
         "icon": "🐼"
+    },
+    {
+        "id": "uber_eats",
+        "name": "Uber Eats",
+        "url": "https://www.ubereats.com/jp",
+        "description": "Uber Eats公式のクーポン・お得メニュー情報",
+        "category": "デリバリー",
+        "icon": "🥡"
+    },
+    {
+        "id": "demaecan",
+        "name": "出前館",
+        "url": "https://demae-can.com/campaign/",
+        "description": "出前館公式のクーポン・キャンペーン一覧",
+        "category": "デリバリー",
+        "icon": "🏠"
+    },
+    {
+        "id": "menu_app",
+        "name": "menu（メニュー）",
+        "url": "https://menu.jp/",
+        "description": "menuの初回クーポン・キャンペーン情報",
+        "category": "デリバリー",
+        "icon": "📱"
+    },
+    {
+        "id": "rocketnow",
+        "name": "ロケットナウ",
+        "url": "https://www.rocketnow.co.jp/",
+        "description": "配送料・サービス料無料のデリバリーアプリ",
+        "category": "デリバリー",
+        "icon": "🚀"
+    },
+    {
+        "id": "delis",
+        "name": "DELIS（デリズ）",
+        "url": "https://delis.tokyo/",
+        "description": "自社ブランド中心のフードデリバリー",
+        "category": "デリバリー",
+        "icon": "🍱"
     }
 ]
 
